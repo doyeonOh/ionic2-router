@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { MainPage } from '../pages/prototype/main/main';
-import { HomePage } from '../pages/home/home';
+import { ListPage } from '../pages/prototype/list/list';
 
 export const routes: Routes = [
   {
@@ -9,8 +9,8 @@ export const routes: Routes = [
     component: MainPage
   },
   {
-    path: 'main',
+    path: 'list',
     // redirectTo: '/'
-    component: HomePage
+    component: ListPage
   }
 ];
